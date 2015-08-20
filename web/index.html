@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<!--
+  Copyright (c) 2015, <your name>. All rights reserved. Use of this source code
+  is governed by a BSD-style license that can be found in the LICENSE file.
+-->
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/google/stagehand">
+    <title>recogeme_practica_1</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1 class="center">ToDo Application</h1>
+        <label for="todo">Que piensas hacer?</label>
+        <input type="text" id="todo" placeholder=" Coloca lo que tienes en mente, luego dale a enter!."/>
+
+        <div id="todo-list">
+        </div>
+
+        <button id="all">Todos</button>
+        <button id="pending">Pendientes</button>
+        <button id="done">Listos</button>
+        <button id="clear">Limpiar!</button>
+
+        <span class="spacer"><span id="all-length"></span> cosas!</span>
+        <span class="spacer"><span id="pending-length"></span> pendientes!</span>
+        <span class="spacer"><span id="done-length"></span> listos!</span>
+
+    </div>
+    <script async type="application/dart" src="main.dart"></script>
+    <script async src="packages/browser/dart.js"></script>
+</body>
+</html>
